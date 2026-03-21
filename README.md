@@ -138,3 +138,10 @@ Exemplo correto:
 <br><br>
 LocalDate data;
 </p>
+Problemas gerados:
+<br><br>
+- poluição de parâmetros
+<br>
+- aumento de erros humanos
+<br>
+- assinatura do método fica grande e confusa
