@@ -70,21 +70,20 @@ String cargo, int ano, int mes, int dia) {
 Por que é um smell?
 </p>
 <p>Segundo boas práticas de POO, um método deve ter uma única responsabilidade. 
-  <br>
-  Aqui, o método:
-<br>
+<br><br>
+Aqui, o método:
+<br><br>
 - formatar dados
 <br>
 - contém regras de negócio
 <br>
 - constrói texto
-<br>
+<br><br>
 Problemas gerados:
-<br>
+<br><br>
 - difícil de testar em partes
 <br>
 - difícil de modificar sem quebrar algo
 <br>
 - difícil de entender rapidamente
-
 </p>
