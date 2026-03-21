@@ -57,3 +57,10 @@ A análise de code smells serve para identificar problemas de design que dificul
 <h3>1. 
 Long Method - Método Muito Longo:
 </h3>
+<p>Onde ocorre:</p>
+
+```java
+public static String montarRelatorio(String nome, String departamento,
+String cargo, int ano, int mes, int dia) {
+//Esse método cria cabeçalho, formata data, define atividades, cria resumo, verifica departamento, monta o relatório final. Ou seja, faz muitas coisas ao mesmo tempo.
+```
