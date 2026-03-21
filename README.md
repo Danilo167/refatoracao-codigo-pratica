@@ -154,10 +154,16 @@ Integrantes
 </h2>
 <h3>
 - Aryanny Galvao da Silva Nascimento
+<br>
 - Daniel Goncalves da Silva
+<br>
 - Danilo Scheidt Caxias do Rêgo
+<br>
 - Jamilly Santos de Lima
+<br>
 - Maria Rafaela Nunes da Silva
+<br>
 - Raika de Souza Silva
+<br>
 - Renato Felix da Silva Neto
 </h3>
