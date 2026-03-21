@@ -12,9 +12,6 @@ Identificação de Smells
 colaboradores:
 </p>
 <br>
-<h1 align="center">Atividade Prática - Refatoração: Identificação de Code Smells</h1>
-
-## Exemplo de Código
 
 ```java
 class Grupo6_ReportBuilder {
