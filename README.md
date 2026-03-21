@@ -145,3 +145,10 @@ Problemas gerados:
 - aumento de erros humanos
 <br>
 - assinatura do método fica grande e confusa
+
+<br><br>
+<h2>
+<strong>
+Integrantes
+</strong>
+</h2>
