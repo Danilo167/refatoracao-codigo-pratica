@@ -145,8 +145,36 @@ Problemas gerados:
 - aumento de erros humanos
 <br>
 - assinatura do método fica grande e confusa
+<h2>
+4. Hardcoded Strings / Duplicated Knowledge
+</h2>
+<p>
+Onde ocorre:
+</p>
 
+
+```java
+corpo += "- Reuniões com equipe\n";
+corpo += "- Entregas do sprint\n";
+corpo += "- Pendências\n";7
+
+//também aparece aqui:
+
+String resumo = "Resumo: OK\n";
+```
+<p>
+Por que é um smell?
 <br><br>
+As atividades e textos estão fixos no código, impossibilitando reutilização, personalização e internacionalização. Se outra equipe quiser atividades diferentes, será necessário alterar o código-fonte.
+<br><br>
+Problemas gerados:
+<br><br>
+- dificulta manutenção
+<br>
+- viola princípio Open/Closed
+<br>
+- impossibilita uso em outros contextos
+</p>
 <h2>
 <strong>
 Integrantes
