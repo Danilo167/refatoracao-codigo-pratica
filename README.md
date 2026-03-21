@@ -46,3 +46,14 @@ class Grupo6_ReportBuilder {
     }
 }
 ```
+
+<h2>
+2. Identificação de Smells:
+</h2>
+<p>
+A análise de code smells serve para identificar problemas de design que dificultam a manutenção, evolução e reutilização do software. No código fornecido, é possível identificar pelo menos 4 smells claros:
+</p>
+
+<h3>1. 
+Long Method - Método Muito Longo:
+</h3>
