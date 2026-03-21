@@ -1,3 +1,7 @@
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+
 class ReportBuilder {
 
     public static String montarRelatorio(Funcionario funcionario, LocalDate data, List<String> atividades) {
