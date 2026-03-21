@@ -15,5 +15,42 @@ Alteração 1: Encapsulamento de Entidades
 - Antes:
 </p>
 
+```java
 public static String montarRelatorio (String nome, String departamento, String cargo, int ano, int mes, int dia) { ... }
+```
+<p>
+Depois:
+</p>
+
+```java
+            class Funcionario {
+            private String nome, departamento, cargo;
+            // Métodos de acesso e lógica de TI encapsulados
+            }
+            public static String montarRelatorio (Funcionario funcionario, LocalDate data,  List<String>     atividades) { ... }
+```
+<p>
+Impacto: Melhora na manutenção e legibilidade. A assinatura do método ficou limpa e o risco de passar dados errados (como trocar ano por dia) foi eliminado pelo uso de tipos fortes como Funcionario e LocalDate.
+</p>
+
+<h2>Alteração 2: Decomposição do Método Monolítico</h2>
+<p>
+Smell identificado: Long Method (Método Muito Longo). O método montarRelatorio fazia tudo: formatava o cabeçalho, processava a data, criava a lista de atividades e aplicava regras de TI.
+<br><br>
+Refatoração aplicada: Extract Method (Extração de Método).
+<br><br>
+Antes:
+</p>
+
+```java
+public static String montarRelatorio (...) {
+           String cabecalho = "Relatório de " + nome + "-" + departamento + ...;
+           String dataStr = "Data: " + dia + "/" + mes + "/" + ano + "\n";
+           String corpo = "Atividades:\n- Reuniões...\n";
+           // ... mais 15 linhas de lógica misturada ...
+          return relatorio;
+          }
+```
+
+
 
