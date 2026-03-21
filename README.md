@@ -117,5 +117,24 @@ Problemas gerados:
 - reduz legibilidade
 <br>
 - dificulta validação
+</p>
+<h2>
+3. Data Clumps - Agrupamento de Dados:
+</h2>
+<p>
+Onde ocorre:
+</p>
 
+```java
+int ano, int mes, int dia
+//Esses três valores sempre aparecem juntos, representando uma única coisa: uma data.
+```
+<p>
+Por que é um smell?
+<br><br>
+Quando vários parâmetros aparecem juntos repetidamente, significa que eles deveriam ser um objeto.
+<br><br>
+Exemplo correto:
+<br><br>
+LocalDate data;
 </p>
