@@ -87,3 +87,35 @@ Problemas gerados:
 <br>
 - difícil de entender rapidamente
 </p>
+<h2>
+2. Primitive Obsession - Obsessão por Tipos Primitivos:
+</h2>
+<p>
+Onde ocorre:
+</p>
+
+```java
+String nome, String departamento, String cargo,
+int ano, int mes, int dia
+//O método recebe muitos dados primitivos ao invés de objetos mais significativos.
+```
+<p>
+Por que é um smell?
+<br><br>
+Em POO, deveria existir uma classe:
+<br>
+class Funcionario
+<br>
+class Data
+<br><br>
+Mas o código usa 3 strings e 3 inteiros.
+<br><br>
+Problemas gerados:
+<br><br>
+- aumenta risco de passar dados errados
+<br>
+- reduz legibilidade
+<br>
+- dificulta validação
+
+</p>
