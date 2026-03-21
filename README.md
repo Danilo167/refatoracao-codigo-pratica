@@ -152,3 +152,12 @@ Problemas gerados:
 Integrantes
 </strong>
 </h2>
+<h3>
+- Aryanny Galvao da Silva Nascimento
+- Daniel Goncalves da Silva
+- Danilo Scheidt Caxias do Rêgo
+- Jamilly Santos de Lima
+- Maria Rafaela Nunes da Silva
+- Raika de Souza Silva
+- Renato Felix da Silva Neto
+</h3>
