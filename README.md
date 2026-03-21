@@ -57,10 +57,34 @@ A análise de code smells serve para identificar problemas de design que dificul
 <h3>1. 
 Long Method - Método Muito Longo:
 </h3>
-<p>Onde ocorre:</p>
+<p>
+Onde ocorre:
+</p>
 
 ```java
 public static String montarRelatorio(String nome, String departamento,
 String cargo, int ano, int mes, int dia) {
 //Esse método cria cabeçalho, formata data, define atividades, cria resumo, verifica departamento, monta o relatório final. Ou seja, faz muitas coisas ao mesmo tempo.
 ```
+<p>
+Por que é um smell?
+</p>
+<p>Segundo boas práticas de POO, um método deve ter uma única responsabilidade. 
+  <br>
+  Aqui, o método:
+<br>
+- formatar dados
+<br>
+- contém regras de negócio
+<br>
+- constrói texto
+<br>
+Problemas gerados:
+<br>
+- difícil de testar em partes
+<br>
+- difícil de modificar sem quebrar algo
+<br>
+- difícil de entender rapidamente
+
+</p>
