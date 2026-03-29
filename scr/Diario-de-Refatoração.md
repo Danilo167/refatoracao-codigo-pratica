@@ -11,7 +11,7 @@ Alteração 1: Encapsulamento de Entidades
 - Smell identificado: Primitive Obsession (Obsessão por Primitivos) e Data Clumps (Agrupamento de Dados). O código tratava informações de funcionários e datas como variáveis soltas (String nome, int dia, etc.).
 <br>
 - Refatoração aplicada: Extract Class (Extração de Classe) e Introduce Parameter Object.
-<br>
+<br><br>
 Antes:
 </p>
 
