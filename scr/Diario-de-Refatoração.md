@@ -12,7 +12,7 @@ Alteração 1: Encapsulamento de Entidades
 <br>
 - Refatoração aplicada: Extract Class (Extração de Classe) e Introduce Parameter Object.
 <br>
-- Antes:
+Antes:
 </p>
 
 ```java
